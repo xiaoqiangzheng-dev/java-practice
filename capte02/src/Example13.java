@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Example13 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        long password = 123456;
+        long password = 123457;
         long input;
         do {
             System.out.println("请输入您的取款密码:");
