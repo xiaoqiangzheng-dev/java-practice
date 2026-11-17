@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Example25 {
     public static void main(String[] args) {
+        int totalAll = 0;
         int[][] warehouse= new int[3][4];
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < 3; i++){
@@ -15,6 +16,9 @@ public class Example25 {
                 sum += warehouse[i][j];
             }
             System.out.print("第"+(i+1)+"个仓库的总库存为" + sum + "\n");
+            totalAll += sum;
+        }
+        System.out.print("三个仓库的总库存为" + totalAll + "\n");
         }
     }
-}
+
